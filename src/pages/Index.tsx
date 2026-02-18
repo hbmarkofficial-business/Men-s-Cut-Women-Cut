@@ -12,22 +12,22 @@ const Index = () => {
     <>
       <Helmet>
         {/* Titel & Meta Description */}
-        <title>Barbershop Prenzlauer Berg | The Gentleman's Cut</title>
+        <title>Friseursalon Berlin | Men's Cut & Women Cut</title>
         <meta
           name="description"
-          content="Besuche unseren Premium Barbershop The Gentleman's Cut in Berlin Prenzlauer Berg für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
+          content="Besuche unseren Premium Friseursalon Men's Cut & Women Cut in Berlin für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
         />
         <meta
           name="keywords"
-          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin, Prenzlauer Berg"
+          content="Friseursalon, Herrenfriseur, Damenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin"
         />
         <link rel="canonical" href="https://gentlemanscut.de" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta property="og:title" content="Men's Cut & Women Cut | Premium Friseursalon Berlin" />
         <meta
           property="og:description"
-          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Berlin Prenzlauer Berg."
+          content="Erstklassige Haarschnitte und Bartpflege für Damen und Herren in Berlin."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://gentlemanscut.de" />
@@ -35,10 +35,10 @@ const Index = () => {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta name="twitter:title" content="Men's Cut & Women Cut | Premium Friseursalon Berlin" />
         <meta
           name="twitter:description"
-          content="Erleben Sie erstklassige Haarschnitte und Bartpflege für den modernen Gentleman."
+          content="Erleben Sie erstklassige Haarschnitte und Bartpflege für Damen und Herren."
         />
         <meta name="twitter:image" content="https://gentlemanscut.de/images/og-image.png" />
 
@@ -46,8 +46,8 @@ const Index = () => {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Barbershop",
-            "name": "The Gentleman's Cut",
+            "@type": "HairSalon",
+            "name": "Men's Cut & Women Cut",
             "image": "https://gentlemanscut.de/images/logo.png",
             "address": {
               "@type": "PostalAddress",
@@ -65,7 +65,7 @@ const Index = () => {
             "telephone": "+49 30 1234567",
             "openingHours": "Mo-Fr 09:00-19:00, Sa 09:00-17:00",
             "priceRange": "€€",
-            "servesCuisine": "Barbershop Services",
+            "servesCuisine": "Friseursalon Services",
             "sameAs": [
               "https://www.facebook.com/gentlemanscut",
               "https://www.instagram.com/gentlemanscut"
